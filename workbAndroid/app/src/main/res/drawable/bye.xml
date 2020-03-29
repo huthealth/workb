@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressed -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/directions_run_black_48x48"/>
+    <!-- default -->
+    <item android:drawable="@drawable/directions_run_white_48x48"/>
+</selector>

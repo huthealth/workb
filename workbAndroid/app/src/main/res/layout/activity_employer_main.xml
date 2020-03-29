@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployerMainActivity"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <android.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/mSign"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:drawableTop="@drawable/sign2"
+        android:padding="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/manage_contract_sign"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <android.widget.Space
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/mCheck"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:drawableTop="@drawable/check2"
+        android:padding="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/manage_contract_check"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <android.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+</LinearLayout>

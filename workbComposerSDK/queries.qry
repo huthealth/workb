@@ -1,0 +1,13 @@
+query selectPendingPTJContractByPhoneNumber {
+  description: " select ptjcontract by p.n "
+  statement:
+  SELECT org.ssu.workb.PTJContract
+  WHERE (((employeePhoneNumber == _$employeePhoneNumber) OR (employerPhoneNumber == _$employerPhoneNumber)) AND (stat == "pending"))
+}
+
+query selectCompletePTJContractByPhoneNumber {
+  description: " select ptjcontract by p.n "
+  statement:
+  SELECT org.ssu.workb.PTJContract
+  WHERE (((employeePhoneNumber == _$employeePhoneNumber) OR (employerPhoneNumber == _$employerPhoneNumber)) AND (stat == "complete"))
+}

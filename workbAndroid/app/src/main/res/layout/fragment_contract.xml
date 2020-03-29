@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contractFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <android.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableTop="@drawable/sign"
+        android:padding="10dp"
+        android:text="@string/contract_sign"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <android.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableTop="@drawable/check"
+        android:padding="10dp"
+        android:text="@string/contract_check"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <android.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

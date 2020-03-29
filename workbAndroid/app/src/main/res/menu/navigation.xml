@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_contract"
+        android:icon="@drawable/insert_drive_file_grey_144x144"
+        android:title="@string/title_contract" />
+
+    <item
+        android:id="@+id/navigation_attendance"
+        android:icon="@drawable/work_grey_144x144"
+        android:title="@string/title_attendance" />
+
+    <item
+        android:id="@+id/navigation_salary"
+        android:icon="@drawable/attach_money_grey_144x144"
+        android:title="@string/title_salary" />
+
+</menu>

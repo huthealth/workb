@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">workB</string>
+    <string name="app_name_kr">워크비</string>
+    <!-- Strings related to login -->
+    <string name="prompt_name">이름</string>
+    <string name="prompt_email">이메일</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="prompt_password_confirm">비밀번호 확인</string>
+    <string name="prompt_phone">핸드폰번호</string>
+    <string name="action_sign_in">로그인 또는 회원가입</string>
+    <string name="action_sign_in_short">로그인</string>
+    <string name="action_register">회원가입</string>
+    <string name="action_do_register">회원가입하기</string>
+    <string name="action_do_login">로그인하기</string>
+    <string name="error_invalid_email">이메일 주소가 유효하지 않습니다</string>
+    <string name="error_invalid_password">비밀번호가 너무 짧습니다</string>
+    <string name="error_incorrect_password">비밀번호가 올바르지 않습니다</string>
+    <string name="error_field_required">해당 입력란은 필수 입력 사항입니다</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_contract">근로계약서</string>
+    <string name="title_attendance">출퇴근</string>
+    <string name="manage_attendance">출퇴근 관리</string>
+    <string name="title_salary">급여</string>
+    <string name="manage_salary">급여 관리</string>
+    <string name="manage_contract_sign">근로계약서 서명</string>
+    <string name="manage_contract_check">근로계약서 확인</string>
+    <string name="employer">고용주</string>
+    <string name="employee">근로자</string>
+    <string name="add_company">회사 등록</string>
+    <string name="action_add_company">회사 등록하기</string>
+    <string name="company_name">상호명</string>
+    <string name="company_address">주소</string>
+    <string name="contract_sign">근로계약서에 서명하기</string>
+    <string name="contract_check">근로계약서 확인하기</string>
+    <string name="attendance_hello">출근했어요</string>
+    <string name="attendance_bye">퇴근합니다</string>
+    <string name="signature_save">저장</string>
+    <string name="signature_clear">초기화</string>
+    <string name="signature">서명</string>
+    <string name="signature_textView">계약서에 들어갈 서명을 해주세요</string>
+    <string name="error_imageView">이미지가 열리지 않습니다</string>
+    <string name="employee_email">근로자 이메일</string>
+    <string name="action_add_employee">근로자 추가하기</string>
+    <string name="action_find_employee">근로계약서 확인하기</string>
+    <string name="add_employee">근로자 추가</string>
+    <string name="term">기간</string>
+    <string name="time">근무시간</string>
+    <string name="pay">시급</string>
+    <string name="won">원</string>
+    <string name="sigan">시간</string>
+    <string name="day">근무일</string>
+    <string name="period">개월</string>
+    <string name="ill">일</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.workmandroid">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/workb"
+        android:label="@string/app_name_kr"
+        android:roundIcon="@drawable/workb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".FindEmployeeContract"></activity>
+        <activity android:name=".AddEmployeeActivity" />
+        <activity android:name=".AddCompanyActivity" />
+        <activity android:name=".EmployerMainActivity" />
+        <activity
+            android:name=".CheckContractActivity"
+            android:label="근로계약서" />
+        <activity
+            android:name=".SignatureActivity"
+            android:label="@string/title_contract" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/action_register" />
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/action_sign_in_short" />
+    </application>
+
+</manifest>

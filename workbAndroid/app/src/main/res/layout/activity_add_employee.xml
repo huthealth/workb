@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".AddEmployeeActivity"
+    android:id="@+id/addEmployeeForm">
+
+    <!-- Login progress -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/error_imageView"
+        app:srcCompat="@drawable/b" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/employee_email"
+            android:inputType="textEmailAddress"
+            android:drawableEnd="@drawable/search_grey_27x27"
+            android:importantForAutofill="no" tools:targetApi="o" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/pay"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/pay"
+            android:inputType="number"
+            android:importantForAutofill="no" tools:targetApi="o"
+            android:layout_marginEnd="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="end"
+            android:text="@string/won"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/term"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/term"
+            android:inputType="number"
+            android:importantForAutofill="no" tools:targetApi="o"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="end"
+            android:text="@string/period"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/time"
+            android:inputType="number"
+            android:importantForAutofill="no" tools:targetApi="o"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="end"
+            android:text="@string/sigan"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/day"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/day"
+            android:inputType="number"
+            android:importantForAutofill="no" tools:targetApi="o"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="end"
+            android:text="@string/ill"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add_employee"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/action_add_employee"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
